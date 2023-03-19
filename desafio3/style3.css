@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+body{
+    text-align: center;
+    padding-top: 160px;
+    background-image: url(/desafio3/image\ \(5\).png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Inter;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+h3 span{
+    color: #ffc700;
+}
+
+
+h1{
+    color: #ffc700;
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Emilys Candy', cursive;
+}
+
+p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: white;
+}
+
+a{
+    padding: 12px 32px;
+    font-family: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:black;
+    background-color: #ffc700; ;
+}
+
+.btn-primary{
+    text-decoration: none;
+    color:black;
+    background-color: #ffc700;;
+    
+}

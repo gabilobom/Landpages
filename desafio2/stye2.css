@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    }
+  
+
+body{
+    margin: 0;
+    width: 1280px;
+    height: 832px;
+    background-color: black;
+    background-image: url(desafio2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.titulo{
+    width: 535px;
+    height: 120px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+    /* identical to box height, or 188% */
+
+    text-align: center;
+
+    color: #EBF1FB;
+    margin-bottom: -10px;
+
+}
+
+span{
+   color: #5EEAD4;
+}
+
+p{
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #EBF1FB;
+    margin-bottom: 72px;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+
+.botao{
+    display: flex;
+    justify-content: center !important;;
+    flex-direction: row;
+
+}
+
+.button1{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #EBF1FB;
+
+    padding: 16px 32px;
+    gap: 8px;
+
+    background: none;
+    border: transparent;
+    border-radius: 80px;
+    width: 191px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 24px;
+}
+
+.button2{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color:   #0B0C0E;
+
+    padding: 16px 32px;
+    gap: 8px;
+    width: 202px;
+    height: 56px;
+
+    border: transparent;
+    background: #5EEAD4;
+    border-radius: 80px;
+
+}
